@@ -1,0 +1,84 @@
+ </DOCTYPE html>
+ 
+ 
+ <html>
+ 
+	<head>
+		<link rel="stylesheet" type="text/css" href="connexion.css">
+		<title>Create Account</title>
+	</head>
+	
+	
+	<body>
+		
+		<div id="formWrapperCreate">
+			<form id="createConnexion">
+				<div>
+					<label for="username">Username</label>
+					<input type="text" name="username" placeholder="Alan Smithee" required/>
+				</div>
+				
+				<div>
+					<label for="password">Password</label>
+					<input type="password" name="password" placeholder="Complex please" required/>
+				</div>
+				<div>	
+					<label for="passwordConfirm">Confirm password</label>
+					<input type="passwordConfirm" name="password" placeholder="Complex please" required/>
+				</div>
+				
+				<div>
+					<label for="name">Name</label>
+					<input type="text" name="name" placeholder="Alan" required/>
+				</div>
+				
+				<div>
+					<label for="Sname">Second name</label>
+					<input type="text" name="Sname" placeholder="Smithee" required/>
+				</div>
+				
+				<div>
+					<label for="email">Email</label>
+					<input type="email" name="email" placeholder="Smithee@mail.com" required/>
+				</div>
+				
+				<div>
+					<label for="phone">Phone</label>
+					<input name="phone" placeholder="555-555-555"type="text"/>
+				</div>
+				
+				<div>
+					<label for="sexe">Sexe</label>
+					<div style="width:250px;">
+						<input type="radio" name="sexe" value="Male" required/>Male<br/>
+						<input type="radio" name="sexe" value="Female" required/>Female<br/>
+					</div>
+				</div>
+				
+				
+				<div>
+					<label for="level">Select a Lvl</label>
+					<select name="level" style="width:250px;">
+						<option>Before BAC</option>
+						<option>BAC</option>
+						<option>After BAC</option>
+					</select>
+				</div>
+
+				<div>
+					<label for="desciption">Description</label>
+					<textarea cols="33" rows="10" name="description"></textarea>
+				</div>
+				
+				
+				
+				<input type="submit">
+			
+			</form>
+		</div>
+		
+
+	</body>
+ 
+ 
+ </html>
