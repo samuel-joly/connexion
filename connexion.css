@@ -1,0 +1,57 @@
+ body
+ {
+	margin:0px; 
+	display:flex;
+	flex-direction:row;
+ }
+ 
+ .formContain
+ {
+	width:315px;
+	margin:auto;
+}
+ 
+ #connexionForm
+ {
+	height:150px;
+	width:300px;
+	margin:auto;
+	margin-bottom:10px;
+	border:1px solid grey;
+	display:flex;
+	flex-direction:column;
+	box-shadow:3px 3px 7px black;
+ }
+ 
+ #connexionForm div
+ {
+	display:flex;
+	flex-direction:row;
+	width:250px;
+	margin:auto;
+ }
+ 
+ label
+ {
+	width:100px;
+ }
+ 
+ #button
+ {
+	width:75px;
+	margin:auto;
+ }
+ 
+ #account
+ {
+	display:flex;
+	flex-direction:column;
+	width:100px;
+ }
+ 
+ #create
+ {
+	display:flex;
+	flex-direction:column; 
+ }
+ 
