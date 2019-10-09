@@ -25,9 +25,9 @@
 			<a href="connexion.html"><img style="width:300px;margin:auto;"src="http://www.suspiriarecords.com/wp-content/uploads/2013/12/Amazon-Logo.png"/></a>
 				
 				
-				<div id="formWrapper" style="width:400px;">
+				<div id="formWrapper" style="width:400px;height:535px;">
 
-					<form id="createConnexion">
+					<form id="createConnexion" action="connexion.html">
 
 						<div>
 							<label for="username">Username</label>
@@ -40,7 +40,7 @@
 						</div>
 						<div>	
 							<label for="passwordConfirm">Confirm password</label>
-							<input type="passwordConfirm" name="password" placeholder="Complex please" required/>
+							<input type="password" name="passwordConfirm" placeholder="Complex please" required/>
 						</div>
 						
 						<div>
@@ -65,7 +65,7 @@
 						
 						<div>
 							<label for="phone">Phone</label>
-							<input name="phone" placeholder="555-555-555"type="text"/>
+							<input type="tel" name="phone" placeholder="0638985678" pattern="0[0-7][0-9]{8}"/>
 						</div>
 						
 						<div>
@@ -88,7 +88,7 @@
 
 						<div>
 							<label for="desciption">Description</label>
-							<textarea cols="33" rows="10" name="description"></textarea>
+							<textarea cols="28" rows="10" name="description"></textarea>
 						</div>
 						
 						<div>
@@ -100,7 +100,7 @@
 							</select>
 						</div>
 						
-						<input id="submit" type="submit">
+						<input id="submit" type="submit" formtarget="connexion.html">
 					
 					</form>
 				</div>
