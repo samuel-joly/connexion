@@ -1,9 +1,60 @@
+/*===============================GENERAL========================*/
+body
+{
+	margin:0px;
+	background-color:yellow;
+	width:100%;
+}
+
+body a>img
+{
+	width:1000px;
+	margin-left:450px;
+}
+
+
+#formZone
+{
+	display:flex;
+	flex-direction:column;
+	max-height:300px;
+	min-width:500px;
+	flex-grow:1;
+}
+
+#formZone a
+{
+	margin:auto;
+}
+
+main
+{
+	display:flex;
+	flex-direction:row;	
+}
+
+.adsPage
+{
+	width:300px;
+	margin:50px;
+	margin-top:-50px;
+}
+
+.adsPage img
+{
+	width:300px;
+	height:250px;
+	margin:10px;
+}
+
 /*=========================CONNEXION=========================*/
 #formWrapper
 {
 	width:300px;
 	margin:auto;
 	border:1px solid black;
+	background:white;
+	flex-grow:1;
 }
 
 #mainConnexion
@@ -37,47 +88,7 @@
 	text-align:center;
 }
 
-.borderBar
-{
-	height:300px;
-	margin-left:17%;;
-}
-
-#bottomBar
-{
-	transform:rotate(180deg);
-}
-
-.fish
-{
-	position:absolute;
-	width:15%;
-}	
-
-#fishLeft
-{
-	top:0px;
-	left:0px;
-}
-
-#fishRight
-{
-	 bottom:20px;
-}
-
-
-#fishTopRight
-{
-	top:0px;
-}
-
-#fishBotLeft
-{
-	left:0px;
-	bottom:20px;
-}
-
-/*=========================CREATE=========================*/
+/*=========================INSCRIPTION=========================*/
 
 #createConnexion
 {
@@ -85,41 +96,21 @@
 	flex-direction:column;
 }
 
-#formWrapperCreate
-{
-	display:flex;
-	flex-direction:column;
-	width:500px;
-	margin:auto;
-	margin-top:10%;
-	padding:10px;
-	border:1px solid black;
-	background-color:#56ada1;
-}
-
 #createConnexion div
 {
 	display:flex;
 	flex-direction:row;
-	margin:5px;
 }
 
 #createConnexion div label
 {
 	width:250px;
 	border-bottom:1px dotted black;
+	margin:5px;
+
 }
 
-#createConnexion div input
+#createConnexion input,#createConnexion textarea, #createConnexion select
 {
-	width:250px;
-}
-
-
-
-/*===============================GENERAL========================*/
-main
-{
-	display:flex;
-	flex-direction:row;
+	margin:5px;
 }
