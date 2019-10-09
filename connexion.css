@@ -47,15 +47,16 @@ main
 	margin:10px;
 }
 
-/*=========================CONNEXION=========================*/
 #formWrapper
 {
 	width:300px;
 	margin:auto;
+	margin-top:-50px;
 	border:1px solid black;
 	background:white;
 	flex-grow:1;
 }
+/*=========================CONNEXION=========================*/
 
 #mainConnexion
 {
@@ -94,6 +95,7 @@ main
 {
 	display:flex;
 	flex-direction:column;
+	
 }
 
 #createConnexion div
@@ -113,4 +115,16 @@ main
 #createConnexion input,#createConnexion textarea, #createConnexion select
 {
 	margin:5px;
+}
+
+/*=========================MOTDEPASSE=========================*/
+
+#formWrapperMdp
+{
+	height:100px;
+	width:300px;
+	margin:auto;
+	margin-top:-50px;
+	border:1px solid black;
+	background:white;
 }
